@@ -1,0 +1,41 @@
+##############################################################
+# Apptracker Configuration
+#
+# Do not share this file. Contains personal configuration.
+#
+# 1. Add all files to the Apptracker folder
+# 2. Open the Apptracker folder in VS Code
+# 3. Create New Workspace (.venv)
+# 4. source .venv/bin/activate
+# 5. python -m pip install openpyxl
+# 6. python -m pip install pandas
+# 7. python -m pip install keyring
+# 8. Run the script
+#
+# Also available: python -m pip install -r requirements.txt
+#
+# If you ever want every run emailed regardless of validation:
+# email_only_on_validation_pass=False
+#
+##############################################################
+
+active_folder=/path/to/Active
+rejected_folder=/path/to/Rejected
+apptracker_folder=/path/to/Apptracker
+
+email_enabled=False
+email_only_on_validation_pass=True
+email_recipients=email1@gmail.com,email2@gmail.com
+
+admin_email_enabled=False
+admin_email_recipients=email1@gmail.com,email2@gmail.com
+
+smtp_username=email@gmail.com
+smtp_server=smtp.gmail.com
+smtp_port=465
+
+# ------------------------------------------------------------
+# Demo Data Generator
+# ------------------------------------------------------------
+make_demo_data=True
+make_demo_script=make_demo_data.py
