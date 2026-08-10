@@ -118,10 +118,10 @@ Example
 Jobs/
 
 ├── Active/
-│      PDF resumes
+│      Active application PDFs
 │
 ├── Rejected/
-│      Rejected PDFs
+│      Rejected application PDFs
 │
 └── Apptracker/
        # Application
